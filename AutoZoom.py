@@ -2,6 +2,7 @@ import webbrowser as wb
 from dateutil.relativedelta import *
 from datetime import *
 
+# Variables for the user to set
 currentTime = datetime.now()
 
 today9am = datetime.now().replace(hour=9,  minute=0, second=0, microsecond=0)
